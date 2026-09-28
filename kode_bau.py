@@ -1,3 +1,5 @@
+"""Modul contoh yang sudah dirapikan sesuai PEP 8."""
+
 
 def jumlahkan_nilai(nilai_a, nilai_b, nilai_c):
     """Menjumlahkan tiga nilai.
@@ -10,6 +12,7 @@ def jumlahkan_nilai(nilai_a, nilai_b, nilai_c):
     Returns:
         Hasil penjumlahan ketiga nilai.
     """
+    return nilai_a + nilai_b + nilai_c
 
 
 def main():
