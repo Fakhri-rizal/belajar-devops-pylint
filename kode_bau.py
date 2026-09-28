@@ -1,9 +1,21 @@
-x = 10
-def Bad_Function_Name( A, B, C, D, E, F ):
- l = 1; O = 0
-  if B == False:
-   if C == None:
-    try: print(eval("A + B")); res = E[0] + F + l + O
-    except: pass
- else: return None
-Bad_Function_Name(True, False, None, 1, [2], 3)
+
+def jumlahkan_nilai(nilai_a, nilai_b, nilai_c):
+    """Menjumlahkan tiga nilai.
+
+    Args:
+        nilai_a: Nilai pertama.
+        nilai_b: Nilai kedua.
+        nilai_c: Nilai ketiga.
+
+    Returns:
+        Hasil penjumlahan ketiga nilai.
+    """
+
+
+def main():
+    """Fungsi utama program."""
+    print(jumlahkan_nilai(1, 2, 3))
+
+
+if __name__ == "__main__":
+    main()
